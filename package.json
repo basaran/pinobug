@@ -1,0 +1,80 @@
+{
+  "name": "pinobug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "pino": "^6.5.1"
+  },
+      "eslintConfig": {
+        "env": {
+            "browser": true,
+            "es6": true,
+            "node": true
+        },
+        "extends": [
+            "eslint:recommended"
+        ],
+        "globals": {
+            "Atomics": "readonly",
+            "SharedArrayBuffer": "readonly"
+        },
+        "parserOptions": {
+            "ecmaVersion": 2018,
+            "sourceType": "module"
+        },
+        "rules": {
+            "no-unexpected-multiline": [
+                "off"
+            ],
+            "no-unused-vars": [
+                "off"
+            ],
+            "object-curly-spacing": [
+                "error",
+                "always"
+            ],
+            "array-bracket-spacing": [
+                "error",
+                "always"
+            ],
+            "space-in-parens": [
+                "error",
+                "always"
+            ],
+            "indent": [
+                "error",
+                4,
+                {
+                    "SwitchCase": 1
+                }
+            ],
+            "operator-linebreak": [
+                "error",
+                "before"
+            ]
+        }
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": false,
+        "htmlWhitespaceSensitivity": "ignore",
+        "overrides": [
+            {
+                "files": ".prettierrc",
+                "options": {
+                    "parser": "json"
+                }
+            }
+        ]
+    }
+}

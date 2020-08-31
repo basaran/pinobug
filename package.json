@@ -1,19 +1,20 @@
 {
-  "name": "pinobug",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "debug": "^4.1.1",
-    "pino": "^6.5.1"
-  },
-      "eslintConfig": {
+    "name": "pinobug",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "debug": "^4.1.1",
+        "pino": "^6.5.1",
+        "stack-trace": "0.0.10"
+    },
+    "eslintConfig": {
         "env": {
             "browser": true,
             "es6": true,
